@@ -15,3 +15,6 @@ echo ${names[${#names[@]}-2]}
 names[2]=stawberry
 # access the element ate index 2.
 echo ${names[2]}
+
+country=(pak ind eng aus can)
+echo ${#country[@]}
